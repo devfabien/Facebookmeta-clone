@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="flex sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm dark:bg-gray-800 dark:border-gray-700">
+        <nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
+          <div class="flex items-center justify-between">
+            <img class="w-24 h-24" src="https://scontent.fkgl4-1.fna.fbcdn.net/v/t39.8562-6/252294889_575082167077436_6034106545912333281_n.svg/meta-logo-primary_standardsize.svg?_nc_cat=1&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=R-q_lKxjDfoAX_QlHJA&_nc_ht=scontent.fkgl4-1.fna&oh=00_AfCWkhISpVQ2SHfYl3VriR0TrvRrMLUbUYajbW7KcyLTRA&oe=647628F9" alt="" srcset=""> 
+            <div class="mx-8 gap-x-5 flex">
+            <button type="button" class="flex items-center w-full hover:text-gray-400 text-base dark:text-gray-400 dark:hover:text-gray-500 ">
+                Shop
+                <svg class="ml-2 w-3 h-3 text-black" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+              </button>
+              <button type="button" class="flex whitespace-no-wrap items-center w-full hover:text-gray-400 text-base dark:text-gray-400 dark:hover:text-gray-500 ">
+                Our technologies
+                <svg class="ml-2 w-3 h-3 text-black" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+              </button>
+              <button type="button" class="flex whitespace-no-wrap items-center w-full hover:text-gray-400 text-base dark:text-gray-400 dark:hover:text-gray-500 ">
+                About us
+                <svg class="ml-2 w-3 h-3 text-black" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+              </button>
+              <button type="button" class="flex whitespace-no-wrap items-center w-full hover:text-gray-400 text-base dark:text-gray-400 dark:hover:text-gray-500 ">
+                Build with us
+                <svg class="ml-2 w-3 h-3 text-black" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                </svg>
+              </button>
+              </div>
+            <div class="sm:hidden">
+              <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+                <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
+            <div class="flex flex-col  gap-x-0 sm:flex-row sm:items-center  sm:gap-x-7 sm:pl-7">
+                <button type="button" class="flex whitespace-no-wrap items-center w-full hover:text-gray-400 text-base dark:text-gray-400 dark:hover:text-gray-500 ">
+                    Support
+                    <svg class="ml-2 w-3 h-3 text-black" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                    </svg>
+                  </button>
+          
+      
+              <div class="flex items-center gap-x-2 sm:ml-auto">
+                <a class="flex items-center gap-x-2 font-medium text-black hover:text-blue-600 sm:border-l sm:border-gray-300 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500" href="#">
+                  <img class="w-20 h-8" src="https://lh3.googleusercontent.com/Wldx3vVtjgL6NKZroIssnVW_LrCLu4ULTKOa6CxPHUnBumK-g4KkfMZJAVVF8WcFwb_HTPjQ2w8UOlWsUV_JODZDsaCzDmfjC-HrGR0Y" alt="" srcset="">
+                  </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="text-center my-16 mx-64"><p class="text-center px-48 font-medium text-gray-900 text-5xl">Bringing people closer every day</p>
+    <p class="font-medium text-lg py-4">Learn about our mission</p>
+    </div>
+    <img class="mx-auto" src="https://scontent.fkgl4-1.fna.fbcdn.net/v/t39.8562-6/306142498_1996009553932154_5207118015223801656_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6825c5&_nc_ohc=K9BD4i9QjSsAX_wUwxm&_nc_ht=scontent.fkgl4-1.fna&oh=00_AfBmosbvA5m3W3y8FGgOhw1HenEz9qUCBoEIXcbi1BuHcQ&oe=64779DDF" alt="" srcset="">
+<div class="my-10 text-center px-24">
+    <img class="w-32 h-32 text-center mx-auto" src="https://scontent.fkgl4-1.fna.fbcdn.net/v/t39.8562-6/252294889_575082167077436_6034106545912333281_n.svg/meta-logo-primary_standardsize.svg?_nc_cat=1&ccb=1-7&_nc_sid=ad8a9d&_nc_ohc=R-q_lKxjDfoAX_QlHJA&_nc_ht=scontent.fkgl4-1.fna&oh=00_AfCWkhISpVQ2SHfYl3VriR0TrvRrMLUbUYajbW7KcyLTRA&oe=647628F9" alt="" srcset=""> 
+      <p class="font-semibold px-64 text-gray-900 text-3xl">Meta builds technologies that help people connect, find communities and grow businesses.</p>     
+
+</div>
+
+   <div class="w-full h-full bg-contain bg-no-repeat my-12" style="background-image: url(https://scontent-fra3-1.xx.fbcdn.net/v/t39.8562-6/334933273_1359777508001730_8077790819411228474_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6825c5&_nc_ohc=7PkARsYbZVUAX_TofhT&_nc_ht=scontent-fra3-1.xx&oh=00_AfC7_a-NiPdKMEnFRGNYv553C6Ylzhe15ex4rDlFm3SMQg&oe=6476CE46);">
+
+<p class="h-40"></p>
+<p class="h-56 text-center text-gray-900 text-2xl font-semibold">Helping people do more together</p>
+<p class="h-32 text-center text-gray-900 text-6xl font-semibold">$7 billion</p>
+<div class="px-64">
+<p class="text-center text-gray-700 text-lg px-56">raised by our community on Facebook and Instagram to support causes they care about</p>
+</div>
+<p class="h-64"></p>
+<p class="h-40"></p>
+   </div>
+   
+   <div class="my-10">
+       <p class="text-center text-4xl py-5 font-medium text-gray-900">
+        The future of digital connection
+       </p>
+       <div class="px-56">
+        <p class="text-gray-600 text-center px-32">We’re moving beyond 2D screens and into immersive experiences in the metaverse, helping create the next evolution of social technology.</p> 
+    <p class="py-8 font-medium text-lg text-center"> Experience the metaverse</p>
+</div> 
+<video class="w-full mx-auto px-40" autoplay loop src="https://video.fkgl4-1.fna.fbcdn.net/v/t39.25447-2/336270881_521404790148845_7468430011048391082_n.mp4?_nc_cat=107&vs=cab995da53522877&_nc_vs=HBksFQAYJEdDRVdDeFR0RGswRE45b0JBS3J4WjQ2R01hVm5ibWRqQUFBRhUAAsgBABUAGCRHTWxCU3hJTlhmMlZCendDQUNMc0FFVlhJVWh6YnY0R0FBQUYVAgLIAQBLB4gScHJvZ3Jlc3NpdmVfcmVjaXBlATENc3Vic2FtcGxlX2ZwcwAQdm1hZl9lbmFibGVfbnN1YgAgbWVhc3VyZV9vcmlnaW5hbF9yZXNvbHV0aW9uX3NzaW0AKGNvbXB1dGVfc3NpbV9vbmx5X2F0X29yaWdpbmFsX3Jlc29sdXRpb24AHXVzZV9sYW5jem9zX2Zvcl92cW1fdXBzY2FsaW5nABFkaXNhYmxlX3Bvc3RfcHZxcwAVACUAHIwXQAAAAAAAAAAREQAAACampaLw1s76ExUCKAJDMxgLdnRzX3ByZXZpZXccF0Aq3jU%2FfO2RGClkYXNoX2k0bGl0ZWJhc2ljXzVzZWNnb3BfaHEyX2ZyYWdfMl92aWRlbxIAGBh2aWRlb3MudnRzLmNhbGxiYWNrLnByb2Q4ElZJREVPX1ZJRVdfUkVRVUVTVBsKiBVvZW1fdGFyZ2V0X2VuY29kZV90YWcGb2VwX2hkE29lbV9yZXF1ZXN0X3RpbWVfbXMBMAxvZW1fY2ZnX3J1bGUHdW5tdXRlZBNvZW1fcm9pX3JlYWNoX2NvdW50AjE1EW9lbV9pc19leHBlcmltZW50AAxvZW1fdmlkZW9faWQPNTM3MDUzODg0ODkzMjUyEm9lbV92aWRlb19hc3NldF9pZBAxMjEzNzIzNDE2MTE2ODEyFW9lbV92aWRlb19yZXNvdXJjZV9pZBA1NjE3NjU3MDg0OTIyMTk1HG9lbV9zb3VyY2VfdmlkZW9fZW5jb2RpbmdfaWQPNzg5MTcwNTY1NDA2MTczDnZ0c19yZXF1ZXN0X2lkACUCHAAlvgEbB4gBcwQ5MTU2AmNkCjIwMjItMDktMTQDcmNiATADYXBwBlZpZGVvcwJjdAhVTkxJU1RFRBNvcmlnaW5hbF9kdXJhdGlvbl9zBjEzLjUwNAJ0cxVwcm9ncmVzc2l2ZV9lbmNvZGluZ3MA&ccb=1-7&_nc_sid=413ca4&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_ohc=FXnfQgJ5qZYAX95PQOF&_nc_ht=video.fkgl4-1.fna&oh=00_AfD3kd-B1ptZyDZDqCD-_oIu6pB5s813e-PESgsOipJ7lQ&oe=647795A7&_nc_rid=341990994811045" alt="" srcset="">
+   </div>
+
+   <div class="my-16 items-center mx-40">
+    <p class="text-gray-600">More about metaverse</p>
+    <div class="grid grid-cols-2 gap-x-8">
+        <div class="bg-gray-100 py-2 px-2 inline-flex items-center">
+            <img class="w-32 h-32" src="https://scontent-fra3-1.xx.fbcdn.net/v/t39.8562-6/306787733_800348254437798_8034004483001918885_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6825c5&_nc_ohc=zzYzjvpRBOQAX8857rT&_nc_ht=scontent-fra3-1.xx&oh=00_AfBtq9Dq1dhaSMs5ts02IlpN_JDJzvmXV2AaxDvb8WP3QA&oe=64766465" alt="" srcset="">
+<p class="px-10 font-medium text-gray-900 text-lg"> What is metaverse?</p>
+        </div>
+        <div class="bg-gray-100 py-2 px-2 inline-flex items-center">
+            <img class="w-32 h-32" src="https://scontent-fra5-2.xx.fbcdn.net/v/t39.8562-6/307109884_1962402090627892_4405481009699463332_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6825c5&_nc_ohc=NtNp16WUsc4AX8G7nkZ&_nc_ht=scontent-fra5-2.xx&oh=00_AfC-9Tn6I4_BOcPTw0lLaGkeCE0dO9-t1bqIpUwfWb26Rw&oe=6475DEE9" alt="" srcset="">
+<p class="px-10 font-medium text-gray-900 text-lg"> How we're building the metaverse Responsibly</p>
+        </div>
+    </div>
+   </div>
+
+   <div class="my-24 mx-32">
+    <p class="text-gray-900 font-semibold text-3xl text-center px-64"> Keeping people safe and making a positive impact</p>
+    <p class="font-medium text-lg text-center py-6">Learn about our actions</p>
+
+<div class="grid grid-cols-2 mx-auto">
+
+    <div class="bg-gray-900 px-20 py-10 items-center justify-center align-middle">
+        <div class="py-10">
+    <p class="text-white font-semibold text-3xl ">
+        Prioritizing privacy and security
+    </p>
+    <p class="text-white font-medium py-2">We’re building social experiences that keep your account secure and enable you to make choices around how your data is used.</p>
+    <p class="font-medium text-white text-lg pt-4">Learn more</p>
+    </div>
+    </div>
+    <div>
+        <img src="https://scontent-fra5-1.xx.fbcdn.net/v/t39.8562-6/332526884_718752686566133_648538359976133995_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6825c5&_nc_ohc=fFwu4lTsxM8AX_iG6lN&_nc_ht=scontent-fra5-1.xx&oh=00_AfCmTUTA8CGx57MIxJqz4SixXl7xUFukNhRudwpmFIyz3g&oe=6477878C" alt="" srcset="">
+    </div>
+    
+</div>
+
+   </div>
+   <div class="my-12 items-center mx-40">
+    <p class="text-gray-600">More actions we're taking</p>
+    <div class="grid grid-cols-2 gap-x-8">
+        <div class="bg-gray-100 py-2 px-2 inline-flex items-center">
+            <img class="w-32 h-32" src="https://scontent-fra3-1.xx.fbcdn.net/v/t39.8562-6/306939504_421743463193171_6692585613395871479_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6825c5&_nc_ohc=5w0mm8JDVP4AX_wTUov&_nc_ht=scontent-fra3-1.xx&oh=00_AfCiiwFWhVaekynq91q5-myoOOFXpAtSuCtQWMCQub8KHQ&oe=64770406" alt="" srcset="">
+<p class="px-10 font-medium text-gray-900 text-lg"> Preparing for elections</p>
+        </div>
+        <div class="bg-gray-100 py-2 px-2 inline-flex items-center">
+            <img class="w-32 h-32" src="https://scontent-fra5-1.xx.fbcdn.net/v/t39.8562-6/298092280_762801578178044_3916714722288959886_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6825c5&_nc_ohc=2D0hT8k0TGsAX_UxhQ-&_nc_ht=scontent-fra5-1.xx&oh=00_AfBYWtMYbC3SWEWl5LOb1xpxhrZbe06BH8zVEwBlAHlGkw&oe=6477AA8A" alt="" srcset="">
+<p class="px-10 font-medium text-gray-900 text-lg"> Promoting safety and expression</p>
+        </div>
+    </div>
+   </div>
+   
+   <div class="my-24 items-center mx-32">
+    <p class="text-gray-600 py-8">More actions we're taking</p>
+    <div class="grid grid-cols-3 gap-x-8">
+        <div>
+            <img src="https://scontent-fra3-1.xx.fbcdn.net/v/t39.8562-6/348964300_689574076266064_6063635159050890658_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6825c5&_nc_ohc=VzECvppWAmEAX_FB6Bl&_nc_ht=scontent-fra3-1.xx&oh=00_AfB9ZFP5WyYLDkT2LxGGbnzryeA14k85rBvexPU4CH5yOg&oe=6476FBFA" alt="" srcset="">
+        <p class="font-medium text-lg py-2">WhatsApp Chat Lock: Making Your Most Intimate Conversation Even More Private</p>
+    <p class="text-gray-600">Locked chats are kept in a folder that can only be accessed via password or biometric.
+        
+        </p>  
+        <p class="font-semibold py-3">Read More</p>  
+    </div>
+    <div>
+        <img class="h-64" src="https://scontent-fra3-1.xx.fbcdn.net/v/t39.8562-6/346055625_251710844177440_8565960424898505231_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6825c5&_nc_ohc=TbLacTWZvVAAX8HuCUa&_nc_ht=scontent-fra3-1.xx&oh=00_AfBLoH8HWZzAjwzWoGf3SlgkoJDbcux4L6AScLp5EXwNHw&oe=6476EC8E" alt="" srcset="">
+    <p class="font-medium text-lg py-2">Expanding Ads on Reels</p>
+<p class="text-gray-600">We're expanding our Ads on Reels tests so more creators can earn money for creating engaging public reels.    
+    </p>  
+    <p class="font-semibold py-3">Read More</p>  
+</div>
+<div>
+    <img class="h-64" src="https://scontent-fra5-2.xx.fbcdn.net/v/t39.8562-6/346034677_188930994065735_2440164316299096584_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6825c5&_nc_ohc=yFAaJziSzHIAX9DpoE_&_nc_ht=scontent-fra5-2.xx&oh=00_AfBPvYVFT5Oz9M8-Wo0cO5BmwcFDvTj1JDBCYAwJezx3Ig&oe=64762D55" alt="" srcset="">
+<p class="font-medium text-lg py-2">New Features on Instagram Reels: Trends, Editing and Gifts</p>
+<p class="text-gray-600"> We're sharing updates to Instagram Reels to help creators connect with their audience and earn a living.
+ 
+</p>  
+<p class="font-semibold py-3">Read More</p>  
+</div>
+
+    </div>
+    </div>
+</body>
+</html>
